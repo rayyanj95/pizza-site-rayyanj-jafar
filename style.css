@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex:100%
+    background-color: #EBF8FA;
+    margin: 0%;
+    background-image: url('pizza.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+li{
+    font-family:arvo;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #f8c0b7;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color:#AD301A;
+    box-shadow: rgba(141, 144, 145, 0.877) 0px 3px 13px;
+    position: fixed;
+}
+
+th{
+    font-size: 15px;
+    font-family: arvo;
+}
+
+#siu{
+    background-color: #f8c0b7; /* Green background */
+    border: 1px solid #611B0F; /* Green border */
+    color: #AD301A; /* White text */
+    padding: 10px 15px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    border-radius: 3%;
+    font-family: arvo;
+    margin: 10px;
+}
+
+#logo{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+}
+
+#ftable{
+    width: 80%;
+    margin-left: 10%;
+}
+
+#head-edit{
+    margin-left 10%;
+}
+.btn-group button {
+    background-color: #AD301A; /* Green background */
+    border: 1px solid #611B0F; /* Green border */
+    color: #f8c0b7; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    border-radius: 3%;
+    width: 250px;
+    font-size: 30px;
+    font-family: arvo;
+    margin: 30px;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #e94225;
+    transition-duration: 0.5s;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 53%;
+    left: 27%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #AD301A;
+    color: #f8c0b7;
+    text-align: left;
+    }
+      
+      
+    @font-face{
+      font-family: arvo;
+      src: url('Arvo-Regular.ttf');
+  }
+
+.foots{
+    font-size: 10pt;
+    font-family: arvo;
+    text-decoration: underline;
+}
